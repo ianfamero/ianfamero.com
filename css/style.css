@@ -254,7 +254,7 @@ a {
 }
 
 .image-card {
-  width: 256px;
+  width: 360px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(12px);
@@ -315,7 +315,7 @@ h2 {
   }
 
   .image-card {
-    width: min(260px, 60vw);
+    width: min(360px, 72vw);
   }
 }
 
