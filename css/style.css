@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  background: #0a0a0a;
+  background: #070d1a;
   color: white;
   line-height: 1.6;
   overflow-x: hidden;
@@ -23,8 +23,8 @@ body::before {
   inset: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(80, 140, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(80, 140, 255, 0.05) 1px, transparent 1px);
   background-size: 40px 40px;
   z-index: -1;
 }
@@ -86,7 +86,7 @@ a {
 .loader-fill {
   height: 100%;
   width: 0%;
-  background: #2dd4bf;
+  background: #38bdf8;
   border-radius: 99px;
   animation: fill-bar 1.4s 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
@@ -160,7 +160,7 @@ a {
 
 .hero h1 span {
   display: block;
-  color: #2dd4bf;
+  color: #38bdf8;
 }
 
 .hero p {
@@ -188,7 +188,7 @@ a {
 }
 
 .btn-primary {
-  background: #2dd4bf;
+  background: #38bdf8;
   color: black;
 }
 
@@ -247,9 +247,9 @@ a {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  background: #2dd4bf;
+  background: #7c3aed;
   filter: blur(40px);
-  opacity: 0.4;
+  opacity: 0.5;
   animation: pulse-glow 4s ease-in-out infinite;
 }
 
@@ -287,7 +287,7 @@ h2 {
 
 /* ── Contact ── */
 .contact-box {
-  border: 1px solid rgba(45, 212, 191, 0.2);
+  border: 1px solid rgba(56, 189, 248, 0.2);
   border-radius: 20px;
   padding: 40px;
   text-align: center;
